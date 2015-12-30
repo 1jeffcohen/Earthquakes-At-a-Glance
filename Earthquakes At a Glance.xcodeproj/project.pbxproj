@@ -159,6 +159,8 @@
 		CF2251441BB0952C00AF32C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = JBC;
 				TargetAttributes = {
@@ -413,6 +415,7 @@
 				CF22516D1BB0952C00AF32C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF22516E1BB0952C00AF32C1 /* Build configuration list for PBXNativeTarget "Earthquakes At a GlanceTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +424,7 @@
 				CF2251701BB0952C00AF32C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

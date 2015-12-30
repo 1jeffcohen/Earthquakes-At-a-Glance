@@ -7,17 +7,17 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E347AF6E-D833-49F2-A0BE-C88D012CA3EE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Earthquakes At a Glance</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>547E5F7C343CF59E3A4CECE505F58C6A31CC0F65</key>
+		<key>564D6265E8B6C9C1DCB5774A386775D65293B0B8</key>
 		<string>https://github.com/1jeffcohen/Earthquakes-At-a-Glance.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Earthquakes At a Glance.xcodeproj/project.xcworkspace</string>
+	<string>Earthquakes At a Glance.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>547E5F7C343CF59E3A4CECE505F58C6A31CC0F65</key>
+		<key>564D6265E8B6C9C1DCB5774A386775D65293B0B8</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>547E5F7C343CF59E3A4CECE505F58C6A31CC0F65</string>
+	<string>564D6265E8B6C9C1DCB5774A386775D65293B0B8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>547E5F7C343CF59E3A4CECE505F58C6A31CC0F65</string>
+			<string>564D6265E8B6C9C1DCB5774A386775D65293B0B8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Earthquakes%20At%20a%20Glance</string>
 		</dict>

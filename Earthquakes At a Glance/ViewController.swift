@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     func showError() {
         
-        println("Was not able to locate the website")
+        print("Was not able to locate the website")
         
     }
     
@@ -36,31 +36,31 @@ class ViewController: UIViewController {
     
     func scrape() {
         
-        var url = NSURL(string: "http://earthquaketrack.com/recent")
+        let url = NSURL(string: "http://earthquaketrack.com/recent")
         
         if url != nil {
-                        
+
             let task = NSURLSession.sharedSession().dataTaskWithURL(url!, completionHandler: { (data, response, error) -> Void in
-                
+
                 var urlError = false
                 
                 var biggestString = ""
                 
                 var todayString = ""
-                
+
                 if error == nil {
-                    
-                    var urlContent = NSString(data: data, encoding: NSUTF8StringEncoding) as NSString!
+
+                    let urlContent = NSString(data: data!, encoding: NSUTF8StringEncoding) as NSString!
                     
                     var urlContentArray = urlContent.componentsSeparatedByString("<ul class=\"list-unstyled\">")
                     
                     var urlContentArray2 = urlContentArray[2].componentsSeparatedByString("Earthquake Alerts via Twitter")
                     
                     if urlContentArray.count > 1 {
-                        
+
                         var textArray = urlContentArray[1].componentsSeparatedByString("</ul>")
                         
-                        todayString = textArray[0] as! String
+                        todayString = textArray[0] 
                         
                         todayString = todayString.stringByReplacingOccurrencesOfString("<li>", withString: "")
                         todayString = todayString.stringByReplacingOccurrencesOfString("</li>", withString: "")
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
                             
                             for (var i = 0; i < biggestArray.count; i++) {
                                 
-                                var big = biggestArray[i] as! String
+                                let big = biggestArray[i] 
                                 
                                 biggestString += big.stringByReplacingOccurrencesOfString("</a>", withString: "")
 
